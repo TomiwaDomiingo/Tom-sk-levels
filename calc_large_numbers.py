@@ -1,11 +1,11 @@
-number = 2**100  # A large number
+number = 2**100 
 print(number)
 
-number = 2**1000  # A much larger number
+number = 2**1000  
 print(number)
 
-number = 2**10000  # An even larger number
+number = 2**10000  
 print(number)
 
-number = 2**100000 # A huge number
+number = 2**100000 
 print(number)
