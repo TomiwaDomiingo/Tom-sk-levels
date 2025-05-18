@@ -1,15 +1,7 @@
-while True:
-    try:
-    number = int(input("Enter a five-digit integer: "))
-    if 10000 <= number <= 99999:
-    break  
-    else:
-    print("Please enter a five-digit integer.")
-    except ValueError:
-    print("Invalid input. Please enter an integer.")
+number = int(input("Enter a five-digit integer: "))
+if 10000 <= number <= 99999:
 
-
-print("The digits are:")
+	print("The digits are: ")
 
 digit1 = number // 10000
 digit2 = (number // 1000) % 10
