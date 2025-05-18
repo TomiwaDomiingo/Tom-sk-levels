@@ -1,4 +1,4 @@
-number = int(input("Enter a five-digit integer: "))
+number = int(input("Enter a five-digit number: "))
 if 10000 <= number <= 99999:
 
 	print("The digits are: ")
