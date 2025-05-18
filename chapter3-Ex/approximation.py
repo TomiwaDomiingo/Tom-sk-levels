@@ -1,14 +1,10 @@
-import math
-def approximate_e(terms): 
-    e_approx = 0  
-    terms = 0
-for number in range(terms):
-    e_approx +=1 / math.factorial(number) 
-    print({e_approx})
-
-terms = int(input('Enta th3 numb3r of t3rms:'))
-
-approx_e = approximate_e(terms) 
-
-print(f" Approximate value of e: , {approx_e}")
-print(f"Actual value of e: , {math.e}")
+number_layers = int(input("Enter the number of layers you want to approximate: ")) 
+e_approx = 0
+factorial = 1 
+for number in range(0, number_layers): 
+    e_approx = e_approx + (1 / factorial)
+    print(f"For Term {number + 1} (1/{number}): {1 / factorial:.10f}")
+    print(f"increasing sum: {e_approx:.10f}")
+    if number > 0: 
+        factorial = factorial * (number + 1)
+print({e_approx})
