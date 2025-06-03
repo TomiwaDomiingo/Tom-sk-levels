@@ -31,9 +31,9 @@ class AtmSimulation:
         return True
     def get_history(self):
         result = []
-        i = 0
+        history = 0
         while history < self.count:
-            result.append(self.history[i])
+            result.append(self.history[historyIndex])
             history = history + 1
         return result
     def get_balance(self):
