@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+""""
 class Parent:
     def __init__(self):
         self.eyes = "green"
@@ -8,3 +19,4 @@ class Child(Parent):
 child = Child()
 print(child.age)
 print(child.eyes)
+"""

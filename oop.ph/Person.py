@@ -15,3 +15,12 @@ teacher.sayBye()
 
 
 
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+sam = Person('Emily', 20)
+print(sam.name, sam.age)
+

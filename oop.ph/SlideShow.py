@@ -1,6 +1,7 @@
 class SlideShow:
     def __init__(self):
-        self.slides = slides
+        self.slides = None
+        self.slides = self.slides
         self.count = 1
 
     def viewNextSlide(self):
